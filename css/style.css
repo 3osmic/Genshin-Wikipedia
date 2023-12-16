@@ -24,6 +24,7 @@ body {
 }
 
 .main-container {
+    margin: 80px 50px;
     text-align: center;
     align-items: center;
     padding: 0px 50px;
@@ -34,17 +35,39 @@ body {
     font-family: 'Genshin','Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.top-nav-bar {
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
 .Homepage {
-    font-size: 50px;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
     font-family: 'Genshin','Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.elements {
+    width: 5%;
+}
+
+.tab-logo {
+    padding: 20px;
+    width: 15%;
+    height: auto;
+}
+
 .nav {
-    background:rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 5px rgb(220, 220, 220);
+    background:rgb(255, 255, 255);
     border-radius: 20px;
     padding: 20px 50px;
-    margin: 0px;
-    text-align: right;
+    margin: 0px 50px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;display: flex;
 }
 
 .genshinLogo {
@@ -55,14 +78,17 @@ body {
     color: #0047AB;
 }
 
-.side-bar-content-container {
+.first-content-container {
     background:rgba(255, 255, 255, 0.7);
     border-radius: 20px;
 }
 
 .Genshin-Content {
+    padding: 20px 100px;
+}
 
-    padding: 100px;
+.Genshin-Content h2 {
+    margin: 20px;
 }
 
 .forum-container {
