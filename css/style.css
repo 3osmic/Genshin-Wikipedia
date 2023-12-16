@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+@font-face {
+    font-family: "Genshin";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../Font/Genshin_Impact_Font.font-woff) format("truetype")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../Website\ Images/Fontaine.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Genshin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    background:rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 5px #ffffff;
+}
+
+img {
+    width: 70%;
+}
+
+.logo {
+    width: 20%;
+}
+
+.nav-bar a {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 20px;
+}
+*/
+
+.main-container {
+    text-align: center;
+    align-items: center;
+    padding: 0px 200px;
+
+}
+
+.Homepage {
+    font-size: 50px;
+    font-family: 'Genshin','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.genshinLogo {
+    width: 100%;
+}
+
+.GenshinImpactBold {
+    color: #0047AB;
+}
