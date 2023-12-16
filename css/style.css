@@ -20,59 +20,71 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: "Genshin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
-
-/*
-header {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 5%;
-    padding: 10px 50px;
-    display: flex;
-    justify-content: space-between;
-    z-index: 100;
-    background:rgba(255, 255, 255, 0.5);
-    border-radius: 20px;
-    align-items: center;
-    box-shadow: 0 5px #ffffff;
-}
-
-img {
-    width: 70%;
-}
-
-.logo {
-    width: 20%;
-}
-
-.nav-bar a {
-    font-size: 18px;
-    color: white;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 40px;
-    padding: 20px;
-}
-*/
 
 .main-container {
     text-align: center;
     align-items: center;
-    padding: 0px 200px;
+    padding: 0px 50px;
 
+}
+
+.main-container h2 {
+    font-family: 'Genshin','Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .Homepage {
     font-size: 50px;
-    font-family: 'Genshin','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-family: 'Genshin','Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.nav {
+    background:rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px 50px;
+    margin: 0px;
+    text-align: right;
 }
 
 .genshinLogo {
-    width: 100%;
+    width: 50%;
 }
 
 .GenshinImpactBold {
     color: #0047AB;
 }
+
+.side-bar-content-container {
+    background:rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+
+.Genshin-Content {
+
+    padding: 100px;
+}
+
+.forum-container {
+    text-align: center;
+    align-items: center;
+    background:rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 200px;
+    margin: 20px 50px;
+}
+
+footer {
+    text-align: center;
+    background:rgba(156, 186, 250, 0.7);
+    padding: 50px;
+    margin: 0px 50px;
+}
+
+/*
+    background-image: linear-gradient(45deg, #ffffff, hsl(227, 100%, 56%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+*/
