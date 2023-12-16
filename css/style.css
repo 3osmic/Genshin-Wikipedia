@@ -24,7 +24,7 @@ body {
 }
 
 .main-container {
-    margin: 80px 50px;
+    margin: 20px 50px;
     text-align: center;
     align-items: center;
     padding: 0px 50px;
@@ -60,14 +60,15 @@ body {
 }
 
 .nav {
-    box-shadow: 0px 5px rgb(220, 220, 220);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     background:rgb(255, 255, 255);
     border-radius: 20px;
     padding: 20px 50px;
     margin: 0px 50px;
     text-align: center;
     justify-content: space-between;
-    align-items: center;display: flex;
+    align-items: center;
+    display: flex;
 }
 
 .genshinLogo {
@@ -79,16 +80,95 @@ body {
 }
 
 .first-content-container {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     background:rgba(255, 255, 255, 0.7);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .Genshin-Content {
-    padding: 20px 100px;
+    padding: 50px 150px;
 }
 
 .Genshin-Content h2 {
     margin: 20px;
+}
+
+.h1-genshin-updates {
+    text-align: center;
+    background-color: white;
+    padding: 20px 0px;
+    margin: 30px 100px;
+    border-radius: 25px;
+    
+}
+
+.genshin-updates {
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+.genshin-updates-containers {
+    display: flex;
+    text-align: center;
+}
+
+
+.g-4-3-updates {
+    border-radius: 10px;
+    background:rgba(255, 255, 255, 0.7);
+    padding: 20px 0px;
+    margin: 30px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+}
+
+.g-4-3-updates img {
+    width: 80%;
+    border-radius: 20px;
+    margin: 20px;
+    border: 5px solid #ffffff;
+    transition: all 0.2s ease;
+}
+
+.g-4-3-updates img:hover {
+    transform: scale(1.1) perspective(4500px);
+}
+
+.countdown-4-3 {
+    padding: 20px;
+    background-color: white;
+}
+
+.g-4-2-updates {
+    border-radius: 10px;
+    background:rgba(255, 255, 255, 0.7);
+    padding: 20px 0px;
+    margin: 30px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.g-4-2-updates img {
+    width: 80%;
+    border-radius: 20px;
+    margin: 20px;
+    border: 5px solid #ffffff;
+    transition: all 0.2s ease;
+}
+
+.g-4-2-updates img:hover {
+    transform: scale(1.1) perspective(4500px);
+}
+
+#ytplayer {
+    margin: 20px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+#ytplayer:hover {
+    transform: scale(1.1) perspective(4500px);
 }
 
 .forum-container {
