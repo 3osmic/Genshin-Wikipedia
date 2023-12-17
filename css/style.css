@@ -179,6 +179,17 @@ body {
     margin-bottom: 20px;
 }
 
+#ytplayer {
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+    transition: all 0.2s ease;
+}
+
+#ytplayer:hover {
+    
+}
+
 .scrollable-object {
     padding: 20px;
     margin: auto;
@@ -188,7 +199,7 @@ body {
     height: 500px;
 }
 
-.char-container {
+.char-container-1 {
     display: flex;
 }
 
@@ -224,6 +235,11 @@ body {
     background:rgba(255, 255, 255, 0.7);
     border-radius: 10px;
 
+}
+
+.character-content-container a {
+    text-decoration: none;
+    color: black;
 }
 
 .character-content-container img {
