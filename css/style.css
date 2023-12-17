@@ -63,9 +63,8 @@ body {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     background:rgb(255, 255, 255);
     border-radius: 20px;
-    padding: 20px 50px;
+    padding: 20px 100px;
     margin: 0px 50px;
-    text-align: center;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -103,31 +102,150 @@ body {
 }
 
 .genshin-updates {
-    text-align: center;
-    align-items: center;
     justify-content: space-between;
-    padding: 0px 80px;
 }
 
 .genshin-updates-containers {
     display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.version-4-3-updates {
+    margin: auto;
+    background:rgba(255, 255, 255, 0.7);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 450px;
+}
+
+.version-4-3-updates .rose-muskets-cover-art {
+    transition: all 0.2s ease;
+}
+
+.version-4-3-updates .rose-muskets-cover-art:hover {
+    border: 5px solid #ffffff;
+    transition: all 0.2s ease;
+    transform: scale(1.1) perspective(4500px);
+}
+
+.rose-muskets-title {
+    translate: 0px -20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
     text-align: center;
 }
 
+.rose-muskets-cover-art {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
 
+.version-4-2-updates {
+    margin: auto;
+    background:rgba(255, 255, 255, 0.7);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 450px;
+}
+
+.version-4-2-updates .masquerade-guilty-cover-art {
+    transition: all 0.2s ease;
+}
+
+.version-4-2-updates .masquerade-guilty-cover-art:hover {
+    border: 5px solid #ffffff;
+    transition: all 0.2s ease;
+    transform: scale(1.1) perspective(4500px);
+}
+
+.masquerade-guilty-title {
+    translate: 0px -20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.masquerade-guilty-cover-art {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.scrollable-object {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.char-container {
+    display: flex;
+}
+
+.furina-container {
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+}
+
+.charlotte-container {
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+}
+
+.element-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.element-icon {
+    width: 20%;
+}
+
+.character-content-container {
+    margin: auto;
+    border: 5px solid #ffffff;
+    background:rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+
+}
+
+.character-content-container img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/*
 .g-4-3-updates {
     border-radius: 10px;
     background:rgba(255, 255, 255, 0.7);
-    padding: 20px 0px;
-    margin: 30px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-    overflow-x: scroll;
-    overflow-y: scroll;
-    width: 1200px;
-    height: 900px;
+    margin: 20px;
 }
 
-.g-4-3-updates img {
+.scrollable-object-1 {
+    width: auto;
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+
+.g-4-3-updates .r-m-image {
     width: 80%;
     border-radius: 20px;
     margin: 20px;
@@ -135,7 +253,7 @@ body {
     transition: all 0.2s ease;
 }
 
-.g-4-3-updates img:hover {
+.g-4-3-updates .r-m-image:hover {
     transform: scale(1.1) perspective(4500px);
 }
 
@@ -150,13 +268,65 @@ body {
 
 .g-4-2-updates {
     border-radius: 10px;
+    margin: 20px;
     background:rgba(255, 255, 255, 0.7);
-    padding: 20px 0px;
-    margin: 30px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
-.g-4-2-updates img {
+.scrollable-object-2 {
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+
+.scrollable-object-2 h3 {
+    margin: 20px;
+}
+
+.char-container {
+    display: flex;
+    justify-content: center;
+}
+
+.element-name {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px 100px;
+}
+
+.element-img {
+    width: 40px;
+}
+
+.furina-container {
+    border: 5px solid #ffffff;
+    margin: 20px;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.furina-container p {
+    padding: 0px 0px;
+    margin: 10px;
+}
+
+.charlotte-container {
+    border: 5px solid #ffffff;
+    margin: 20px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.charlotte-container p {
+    padding: 0px 0px;
+    margin: 10px;
+}
+
+.g-4-2-updates .update-img-2 {
     width: 80%;
     border-radius: 20px;
     margin: 20px;
@@ -164,7 +334,7 @@ body {
     transition: all 0.2s ease;
 }
 
-.g-4-2-updates img:hover {
+.g-4-2-updates .update-img-2:hover {
     transform: scale(1.1) perspective(4500px);
 }
 
@@ -178,6 +348,17 @@ body {
 #ytplayer:hover {
     transform: scale(1.1) perspective(4500px);
 }
+
+#ytplayer-2 {
+    transition: all 0.2s ease;
+    border-radius: 10px;
+}
+
+#ytplayer-2:hover {
+    transform: scale(1.1) perspective(4500px);
+}
+
+*/
 
 .forum-container {
     text-align: center;
