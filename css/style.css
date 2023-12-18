@@ -51,6 +51,13 @@ body {
 
 .elements {
     width: 5%;
+    transition: all 0.2s ease;
+}
+
+.elements:hover {
+    transition: all 0.2s ease;
+    transform: scale(1.5) perspective(4500px);
+    cursor: pointer;
 }
 
 .tab-logo {
