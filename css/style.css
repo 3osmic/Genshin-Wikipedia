@@ -71,7 +71,7 @@ body {
 }
 
 .genshinLogo {
-    width: 50%;
+    width: 100%;
 }
 
 .GenshinImpactBold {
@@ -184,10 +184,13 @@ body {
     width: 350px;
     height: 200px;
     transition: all 0.2s ease;
+    margin: 20px;
 }
 
 #ytplayer:hover {
-    
+    border: 5px solid #ffffff;
+    transition: all 0.2s ease;
+    transform: scale(1.1) perspective(4500px);
 }
 
 .scrollable-object {
@@ -199,20 +202,45 @@ body {
     height: 500px;
 }
 
-.char-container-1 {
+.scrollable-object .h3-4-3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.scrollable-object .rose-musket-redirect {
+    text-decoration: none;
+}
+
+.char-container-1, .char-container-2, 
+.char-container-3 {
     display: flex;
 }
 
-.furina-container {
-    margin: auto;
-    padding: 10px;
-    width: 50%;
+.countdown-4-3 {
+    font-size: 30px;
+    padding: 20px 20px;
+    margin: 20px;
+    border-radius: 20px;
+    font-family: 'Genshin','Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(135, 165, 247);
 }
 
-.charlotte-container {
+.furina-container, .charlotte-container, 
+.freminet-container, .baizhu-container, 
+.dori-container, .nilou-container {
     margin: auto;
     padding: 10px;
     width: 50%;
+    transition: all 0.2s ease;
+}
+
+.furina-container:hover, .charlotte-container:hover, 
+.freminet-container:hover, .baizhu-container:hover, 
+.dori-container:hover, .nilou-container:hover {
+    transition: all 0.2s ease;
+    transform: scale(1.1) perspective(4500px);
 }
 
 .element-name {
