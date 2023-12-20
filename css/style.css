@@ -50,7 +50,7 @@ body {
 }
 
 .elements {
-    width: 5%;
+    width: 50%;
     transition: all 0.2s ease;
 }
 
@@ -75,6 +75,10 @@ body {
     justify-content: space-between;
     align-items: center;
     display: flex;
+}
+
+.center-region {
+    translate: -20px 0px;
 }
 
 .genshinLogo {
@@ -214,12 +218,20 @@ body {
     margin-bottom: 20px;
 }
 
-.scrollable-object .rose-musket-redirect {
+.scrollable-object .redirect {
     text-decoration: none;
 }
 
 .char-container-1, .char-container-2, 
 .char-container-3 {
+    display: flex;
+}
+
+.wpns-header {
+    margin: 20px;
+}
+
+.weapon-container {
     display: flex;
 }
 
@@ -232,6 +244,7 @@ body {
     background-color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(135, 165, 247);
+    border: 5px solid #c3c7ff;
 }
 
 .furina-container, .charlotte-container, 
@@ -248,6 +261,40 @@ body {
 .dori-container:hover, .nilou-container:hover {
     transition: all 0.2s ease;
     transform: scale(1.1) perspective(4500px);
+}
+
+.splendor-container, .kreuz-container {
+    margin: auto;
+    padding: 20px;
+    margin: 20px;
+    background:rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+.splendor-container:hover, .kreuz-container:hover {
+    transition: all 0.2s ease;
+    transform: scale(1.1) perspective(4500px);
+}
+
+.splendor-container a, .kreuz-container a {
+    text-decoration: none;
+    color:black;
+}
+
+.splendor-container img {
+    width: 100%;
+}
+
+.kreuz-container img {
+    width: 100%;
+}
+
+.weaponbg {
+    width: 150px;
+    height: 135px;
+    margin: -120px 0px;
+    border-radius: 10px;
 }
 
 .element-name {
@@ -269,7 +316,6 @@ body {
     border: 5px solid #ffffff;
     background:rgba(255, 255, 255, 0.7);
     border-radius: 10px;
-
 }
 
 .character-content-container a {
@@ -281,135 +327,6 @@ body {
     border-radius: 10px;
     width: 100%;
 }
-
-/*
-.g-4-3-updates {
-    border-radius: 10px;
-    background:rgba(255, 255, 255, 0.7);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-    margin: 20px;
-}
-
-.scrollable-object-1 {
-    width: auto;
-    overflow-x: auto;
-    overflow-y: scroll;
-}
-
-.g-4-3-updates .r-m-image {
-    width: 80%;
-    border-radius: 20px;
-    margin: 20px;
-    border: 5px solid #ffffff;
-    transition: all 0.2s ease;
-}
-
-.g-4-3-updates .r-m-image:hover {
-    transform: scale(1.1) perspective(4500px);
-}
-
-.countdown-4-3 {
-    font-size: 30px;
-    padding: 20px 20px;
-    margin: 20px;
-    border-radius: 20px;
-    font-family: 'Genshin','Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: white;
-}
-
-.g-4-2-updates {
-    border-radius: 10px;
-    margin: 20px;
-    background:rgba(255, 255, 255, 0.7);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-}
-
-.scrollable-object-2 {
-    overflow-x: auto;
-    overflow-y: scroll;
-}
-
-.scrollable-object-2 h3 {
-    margin: 20px;
-}
-
-.char-container {
-    display: flex;
-    justify-content: center;
-}
-
-.element-name {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    background-color: white;
-    border-radius: 10px;
-    margin: 0px 100px;
-}
-
-.element-img {
-    width: 40px;
-}
-
-.furina-container {
-    border: 5px solid #ffffff;
-    margin: 20px;
-    padding: 0px 20px;
-    align-items: center;
-    justify-content: center;
-}
-
-.furina-container p {
-    padding: 0px 0px;
-    margin: 10px;
-}
-
-.charlotte-container {
-    border: 5px solid #ffffff;
-    margin: 20px;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-}
-
-.charlotte-container p {
-    padding: 0px 0px;
-    margin: 10px;
-}
-
-.g-4-2-updates .update-img-2 {
-    width: 80%;
-    border-radius: 20px;
-    margin: 20px;
-    border: 5px solid #ffffff;
-    transition: all 0.2s ease;
-}
-
-.g-4-2-updates .update-img-2:hover {
-    transform: scale(1.1) perspective(4500px);
-}
-
-#ytplayer {
-    margin: 20px;
-    border-radius: 10px;
-    transition: all 0.2s ease;
-
-}
-
-#ytplayer:hover {
-    transform: scale(1.1) perspective(4500px);
-}
-
-#ytplayer-2 {
-    transition: all 0.2s ease;
-    border-radius: 10px;
-}
-
-#ytplayer-2:hover {
-    transform: scale(1.1) perspective(4500px);
-}
-
-*/
 
 .forum-container {
     text-align: center;
@@ -445,10 +362,7 @@ footer {
     border-radius: 10px;
   }
 
-/*
-    background-image: linear-gradient(45deg, #ffffff, hsl(227, 100%, 56%));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-*/
+/* Pyro.html */
+.pyro-main-container {
+    background:rgba(255, 255, 255, 0.7);
+}
